@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blocky Lighting World and superBear</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="600" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <p id = "numdot"> XXX </p>
+
+    Press "W" "S" "A" "D" to "move forward", "move back", "move left" and "move right".
+    <br>Press "Q" "E" to "panLeft" and "panRight".
+    <p>
+
+    Look From Far Away:
+    <button type="button" id="lookFront">Press here</button>
+    Reset the Location:
+    <button type="button" id="reset">Press here</button>
+    <br>
+
+    <br>
+    Normal On/Off:
+    <button type="button" id="normalOn">On</button>
+    <button type="button" id="normalOff">Off</button>
+    <br>
+
+      <br>
+      Light On/Off:
+      <button type="button" id="lightOn">On</button>
+      <button type="button" id="lightOff">Off</button>
+      <br>
+
+    <p>
+      Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+      Light Y <input type="range" min="-80" max="250" value="0" class="slider" id="lightSlideY">
+      Light Z <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideZ">
+    <p>
+    <p>
+      LightColor: Red <input type="range" min="0" max="255" value="1" class="slider" id="lightColorRed">
+      Green <input type="range" min="0" max="255" value="1" class="slider" id="lightColorGreen">
+      Blue <input type="range" min="0" max="255" value="1" class="slider" id="lightColorBlue">
+    <p>
+
+    <p>
+      Camera Angle <input type="range" min="-180" max="180" value="0" class="slider" id="angleSlide">
+    <p>
+    <p><br>
+      Bear Animation:
+      <br>
+      Bear Walk:
+      <button type="button" id="fullMoveOn">On</button>
+      <button type="button" id="fullMoveOff">Off</button>
+      <br>
+      L Hand Angle<input type="range" min="-20" max="-10" value="-15" class="slider" id="lHandSlide">
+      Animation:<button type="button" id="lHandMoveOn">On</button>
+      <button type="button" id="lHandMoveOff">Off</button>
+    <p>
+
+    <p>
+      R Hand Angle<input type="range" min="-20" max="-10" value="-15" class="slider" id="rHandSlide">
+      Animation:<button type="button" id="rHandMoveOn">On</button>
+      <button type="button" id="rHandMoveOff">Off</button>
+    <p>
+
+    <p>
+      L Leg Angle<input type="range" min="-12" max="20" value="0" class="slider" id="lLegSlide">
+      Animation:<button type="button" id="lLegMoveOn">On</button>
+      <button type="button" id="lLegMoveOff">Off</button>
+    <p>
+      R Leg Angle<input type="range" min="-12" max="20" value="0" class="slider" id="rLegSlide">
+      Animation:<button type="button" id="rLegMoveOn">On</button>
+      <button type="button" id="rLegMoveOff">Off</button>
+    <p>
+
+      L Foot Angle<input type="range" min="-12" max="13" value="0" class="slider" id="lFootSlide">
+      Animation:<button type="button" id="lFootMoveOn">On</button>
+      <button type="button" id="lFootMoveOff">Off</button>
+    <p>
+      R Foot Angle<input type="range" min="-12" max="13" value="0" class="slider" id="rFootSlide">
+      Animation:<button type="button" id="rFootMoveOn">On</button>
+      <button type="button" id="rFootMoveOff">Off</button>
+    <p>
+
+      L Toe Angle<input type="range" min="-20" max="4" value="-5" class="slider" id="lToeSlide">
+      Animation:<button type="button" id="lToeMoveOn">On</button>
+      <button type="button" id="lToeMoveOff">Off</button>
+    <p>
+      R Toe Angle<input type="range" min="-20" max="4" value="-5" class="slider" id="rToeSlide">
+      Animation:<button type="button" id="rToeMoveOn">On</button>
+      <button type="button" id="rToeMoveOff">Off</button>
+    <p><br>
+
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Point.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Circle.js"></script>
+    <script src="asg4.js"></script>
+    <script src="Pyramid.js"></script>
+    <script src="DrawAni.js"></script>
+    <script src="Camera.js"></script>
+    <script src="ExtraTex.js"></script>
+      <script src="drawOthers.js"></script>
+      <script src="Sphere.js"></script>
+  </body>
+</html>
+
+
