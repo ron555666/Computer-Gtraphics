@@ -1,1 +1,1 @@
-All of the imamges/material pictures used are cited from Internet.
+All of the images/material pictures used are cited from the Internet.
