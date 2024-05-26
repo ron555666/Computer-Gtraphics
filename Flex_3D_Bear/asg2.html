@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>A SuperBear</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br>
+    "I am a superbear."
+    <br>
+    <p id = "numdot"> XXX </p>
+    Bear Walk:
+    <button type="button" id="fullMoveOn">On</button>
+    <button type="button" id="fullMoveOff">Off</button>
+    <br><br>
+
+    <p>
+      L Hand Angle<input type="range" min="-20" max="-10" value="-15" class="slider" id="lHandSlide">
+      Animation:<button type="button" id="lHandMoveOn">On</button>
+      <button type="button" id="lHandMoveOff">Off</button>
+    <p>
+
+    <p>
+      R Hand Angle<input type="range" min="-20" max="-10" value="-15" class="slider" id="rHandSlide">
+      Animation:<button type="button" id="rHandMoveOn">On</button>
+      <button type="button" id="rHandMoveOff">Off</button>
+    <p>
+
+    <p>
+    L Leg Angle<input type="range" min="-12" max="20" value="0" class="slider" id="lLegSlide">
+      Animation:<button type="button" id="lLegMoveOn">On</button>
+      <button type="button" id="lLegMoveOff">Off</button>
+    <p>
+      R Leg Angle<input type="range" min="-12" max="20" value="0" class="slider" id="rLegSlide">
+      Animation:<button type="button" id="rLegMoveOn">On</button>
+      <button type="button" id="rLegMoveOff">Off</button>
+    <p>
+
+    L Foot Angle<input type="range" min="-12" max="13" value="0" class="slider" id="lFootSlide">
+      Animation:<button type="button" id="lFootMoveOn">On</button>
+      <button type="button" id="lFootMoveOff">Off</button>
+    <p>
+      R Foot Angle<input type="range" min="-12" max="13" value="0" class="slider" id="rFootSlide">
+      Animation:<button type="button" id="rFootMoveOn">On</button>
+      <button type="button" id="rFootMoveOff">Off</button>
+    <p>
+
+    L Toe Angle<input type="range" min="-20" max="4" value="-5" class="slider" id="lToeSlide">
+      Animation:<button type="button" id="lToeMoveOn">On</button>
+      <button type="button" id="lToeMoveOff">Off</button>
+    <p>
+      R Toe Angle<input type="range" min="-20" max="4" value="-5" class="slider" id="rToeSlide">
+      Animation:<button type="button" id="rToeMoveOn">On</button>
+      <button type="button" id="rToeMoveOff">Off</button>
+    <p>
+
+    <p>
+    Camera Angle <input type="range" min="-180" max="180" value="15" class="slider" id="angleSlide">
+    <p>
+
+
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src= "Pyramid.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Point.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Circle.js"></script>
+    <script src="asg2.js"></script>
+
+  </body>
+</html>
+
+
